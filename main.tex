@@ -1,0 +1,84 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 3.0 (December 17, 2022)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Author:
+% Vel (vel@latextemplates.com)
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% License:
+% CC BY-NC-SA 4.0 (https://creativecommons.org/licenses/by-nc-sa/4.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[
+	a4paper, % Uncomment for A4 paper size (default is US letter)
+	11pt, % Default font size, can use 10pt, 11pt or 12pt
+]{resume} % Use the resume class
+
+%\usepackage[default]{sourcesanspro}
+
+\usepackage[sfdefault,light]{roboto}  %% Option 'sfdefault' only if the base font of the document is to be sans serif
+\usepackage[T1]{fontenc}
+%\usepackage{gentium}
+
+\usepackage{enumitem}
+\usepackage{ragged2e}
+\usepackage{fontawesome}
+\usepackage{tgheros}
+
+\setlist[itemize]{noitemsep, topsep=0pt}
+
+%------------------------------------------------
+
+\name{Maximus Watkins} % Your name to appear at the top
+
+% You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
+% Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
+
+\address{maximus.watkins@eng.ox.ac.uk \\ \faLinkedinSquare : linkedin.com/in/maximuswatkins/} % Contact information
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+\justify
+\input{Sections/Education}
+\vspace{-7pt}
+\input{Sections/Awards}
+\vspace{-7pt}
+\input{Sections/ResearchExperience}
+\newpage % keeps Industry Experience together on page 2; remove if content changes
+\input{Sections/WorkExperience}
+\vspace{-7pt}
+\input{Sections/ConferenceProceedings}
+\vspace{-7pt}
+\newpage
+\input{Sections/TeachingExperience}
+\vspace{-7pt}
+\input{Sections/RelevantSkills}
+%\input{Referees}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{Additional Experience}
+%         \begin{rSubsection}{}{}{}{}
+%             \item Co-founder of the `GCN AI Collective' at MBDA. This involves facilitating presentations and \\meetings to discuss current AI and ML research, as well as aiding in AI knowledge management.
+%             \item Committee for the internal `HIVE' newsletter at MBDA. This role entails producing summaries and original investigations into autonomous systems and AI, along with quality assurance of other members' reports.
+%             \item Enthusiastically involved in various STEM outreach activities, including the Flying Start initiative and, while at university, as a committee member of a coding club designed for secondary school pupils.
+%         \end{rSubsection}
+% 	%Section content\ldots
+
+% \end{rSection}
+\end{document}

@@ -1,0 +1,14 @@
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+
+# Private: referee contact details
+Sections/Referees.tex
+
+# macOS
+.DS_Store
